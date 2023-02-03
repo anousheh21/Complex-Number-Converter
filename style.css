@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Inconsolata&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +11,6 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     height: 100vh;
     overflow: hidden;
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +24,6 @@ body {
 }
 
 .cartesian {
-    /* margin-top: 3%; */
     display: flex;
     margin: 3%;
 }
@@ -46,7 +43,7 @@ input {
     font-weight: 500;
     text-align: center;
     font-size: 130%;
-    width: 4vh;
+    width: 50px;
     height: auto;
 }
 
@@ -62,13 +59,13 @@ input::-webkit-inner-spin-button {
 }
 
 .submit {
+    background-color: #D90429;
+    color: #EDF2F4;
     width: 20%;
     padding: 8px 20px;
     font-size: 110%;
     font-weight: 600;
     cursor: pointer;
-    /* transition-duration: 0.1s;
-    transition-timing-function: ease-in; */
 }
 
 .submit:hover {
