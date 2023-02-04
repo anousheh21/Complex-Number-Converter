@@ -6,8 +6,8 @@ const button = document.querySelector('.submit');
 const output = document.querySelector('.output');
 
 button.addEventListener('click', () => {
-    let x = parseInt(xInput.value);
-    let y = parseInt(yInput.value);
+    let x = parseFloat(xInput.value);
+    let y = parseFloat(yInput.value);
     let modulus = 0;
     if(xInput.value=='' || yInput.value=='') {
         output.textContent = 'Values Required'
