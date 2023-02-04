@@ -17,6 +17,20 @@ body {
     justify-content: center;
 }
 
+a {
+    color: #EDF2F4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8D99AE;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 30%;
+}
+
 .output {
     color: #EDF2F4;
     font-size: 140%;
