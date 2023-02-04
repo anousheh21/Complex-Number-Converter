@@ -42,6 +42,12 @@ a:hover {
     font-weight: 600;
 }
 
+.displayModarg {
+    color:#EDF2F4;
+    font-size: 135%;
+    font-weight: 600;
+}
+
 .material-symbols-outlined {
     color: #EDF2F4;
     padding-top: 2%;
@@ -68,6 +74,11 @@ a:hover {
     font-weight: 500;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.autotheta {
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 input {
