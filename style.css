@@ -23,6 +23,21 @@ body {
     font-weight: 600;
 }
 
+.displayCartesian {
+    color:#EDF2F4;
+    font-size: 135%;
+    font-weight: 600;
+}
+
+.material-symbols-outlined {
+    color: #EDF2F4;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.material-symbols-outlined.md-30 { font-size: 30px; }
+
+
 .cartesian {
     display: flex;
     margin: 3%;
