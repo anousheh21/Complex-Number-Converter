@@ -4,6 +4,7 @@ const button = document.querySelector('.submit');
 const displayModArg = document.querySelector('.displayModarg');
 const output = document.querySelector('.output');
 const showIcon = document.querySelector('.showIcon');
+const autoTheta = document.querySelector('.autotheta');
 
 button.addEventListener('click', () => {
     let n = parseFloat(inputMod.value);
@@ -31,6 +32,7 @@ button.addEventListener('click', () => {
         inputArg.value = '';
         output.textContent=`${x} + ${y}i`;
         showIcon.textContent='arrow_downward';
-        displayModArg.textContent=`${n}cos(${theta}) + ${n}i sin (${theta})`;
+        displayModArg.textContent=`${n} cos(${theta}) + ${n}i sin (${theta})`;
     }
-})
+});
+
