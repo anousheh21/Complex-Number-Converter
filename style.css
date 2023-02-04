@@ -18,17 +18,16 @@ body {
 }
 
 a {
-    color: #EDF2F4;
+    color: #8D99AE;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8D99AE;
+    color: #EDF2F4;
 }
 
 .navbar {
-    position: fixed;
-    bottom: 30%;
+    margin-top: 20px;
 }
 
 .output {
@@ -54,7 +53,7 @@ a:hover {
 
 .cartesian {
     display: flex;
-    margin: 3%;
+    margin: 20px;
 }
 
 .i {
